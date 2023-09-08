@@ -1,3 +1,7 @@
+"""
+Credit for code goes to Dr. Christian Donner of the SDSC (https://datascience.ch/team_member/christian-donner/)
+"""
+
 import numpy
 import pandas
 
