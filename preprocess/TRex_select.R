@@ -6,7 +6,7 @@
 
 library(TRexSelector)
 
-data <- read.csv("~/ETH Zurich/Masters Thesis/main/aerosol_gas_data2020.csv",row.names="X")
+data <- read.csv("~/ETH Zurich/Masters Thesis/main/data/processed/Data_cleaned_Rob/aerosol_data_JFJ_2015_to_2021_CLEANED_May2023.csv", row.names="X")
 data2020 <- subset(data, row.names(data) > as.POSIXct("2020-01-01 00:00:00"))
 
 
